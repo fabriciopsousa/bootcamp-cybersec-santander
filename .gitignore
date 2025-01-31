@@ -1,0 +1,107 @@
+# Sistema macOS
+####################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de rede compartilhada
+####################
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ferramentas de IDE/Editor
+####################
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Xcode (se estiver usando)
+####################
+xcuserdata/
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/project.xcworkspace
+DerivedData/
+build/
+*.xcuserstate
+
+# Homebrew
+####################
+brew-*
+*.brew
+
+# Arquivos de dependência (exemplos para linguagens populares)
+####################
+# Node.js
+node_modules/
+
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+*.egg-info/
+*.tox/
+
+# Ruby
+*.gem
+.bundle/
+config.yml
+*.rbenv-version
+
+# Docker
+####################
+.docker/
+docker-compose.override.yml
+*.log
+*.pid
+
+# Kubernetes
+####################
+*.kube/
+*.kubectl/
+
+# IntelliJ
+####################
+.idea/
+
+# Arquivos de logs
+####################
+*.log
+*.out
+*.pid
+*.gz
+*.zip
+
+# Dependências específicas de framework/linguagem
+####################
+# Laravel (PHP)
+vendor/
+
+# Django (Python)
+*.sqlite3
+*.log
+
+# Jupyter Notebooks (Python)
+.ipynb_checkpoints/
+
+# Android Studio (Java)
+.gradle/
+*.iml
+build/
+local.properties
+
+# Outros arquivos específicos de ferramentas ou ambientes de desenvolvimento
+####################
+*.swp
+*~
+.idea/
+*.log
+
+# Arquivos de configuração locais
+####################
+*.env
+.env.*
